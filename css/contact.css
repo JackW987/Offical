@@ -1,0 +1,20 @@
+.contact-show-banner{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.resize-fixed{
+    resize: none;
+} 
+.map-container{
+    height: 484px;
+    background: url(../images/bgImages/bg-map.png) center no-repeat;
+    background-size: cover;
+}
+.input-container{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.add-fixed{
+    color: black!important;
+    margin-bottom: 30px!important;
+}

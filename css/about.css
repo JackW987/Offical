@@ -1,0 +1,104 @@
+html{
+    padding:0px;
+    margin:0px;
+}
+body{
+    margin:0px;
+    padding:0px;
+    font-family: "Microsoft YaHei";
+}
+.middle-show-banner{
+    margin-top: 60px;
+}
+.show-banner-text h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 30px;
+}
+.show-banner-text p{
+    font-size: 15px;
+    line-height: 28px;
+    color: #3e3e3e;
+}
+.show-banner-img img{
+    width: 100%;
+}
+.scroll-banner{
+    width: 100%;
+    background: url(../images/showImages/show-5.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+.scroll-banner-box{
+    text-align: center;
+}
+.scroll-banner-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: rgba(0, 0, 0, 0.3)
+}
+.scroll-banner-box h3{
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+.scroll-banner-box i{
+    color: #18d26e;
+    font-size: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.scroll-banner-box p{
+    font-size: 14px;
+    color: #e6e6e6;
+    line-height: 1.8em;
+    letter-spacing: .5px;
+    text-transform: capitalize;
+}
+.team-show-banner{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.team-info{
+    padding: 14px 28px;
+    background: white;
+    border:1px solid #e8e8e8;
+    box-shadow: 0px 2px 14px -5px rgba(0,0,0,0.75);
+}
+.team-info h3{
+    color: #000;
+    text-transform: uppercase;
+    margin: 21px 0;
+    font-size: 21px;
+    font-weight: 700;
+}
+.team-img{
+    width: 100%;
+}
+.team-info p{
+    vertical-align: middle;
+    color: #4a4a4a;
+    font-size: 15px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+.team-info i{
+    color: #18d26e;
+}
+.team-show-banner-box{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+/* 图片响应 */
+@media screen and (max-width: 1200px) {
+    .show-banner-img{
+        padding-top: 100px;
+    }
+}

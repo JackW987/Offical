@@ -1,0 +1,66 @@
+html{
+    padding:0px;
+    margin:0px;
+}
+body{
+    margin:0px;
+    padding:0px;
+    font-family: "Microsoft YaHei";
+}
+.case-item i{
+    display: block;
+    width: 72px;
+    float: left;
+    padding-right: 15px;
+    padding-top: 5px;
+    font-size: 32px;
+    color: #4d4d4d;
+}
+.case-item-banner{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.case-item-banner .col-md-6{
+    margin-top: 30px;
+}
+.case-item div{
+    float: left;
+    width:calc(100% - 72px);
+}
+.case-item div h3{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+.case-item div span{
+    display: inline-block;
+    width: 40px;
+    height: 2px;
+    background: #ddd;
+    transition: 0.3s;
+}   
+.case-item:hover div span{
+    background: #18d26e;
+}
+.case-item div p{
+    margin-top: 9px;
+    margin-bottom: 0;
+    line-height: 1.9;
+    color: #555;
+}
+.case-item{
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+    padding:20px 30px;
+    border-radius: 3px;
+    background: #fff;
+    transition: 0.5s;
+}
+.case-item-show-banner{
+    background: #f7f7f7;
+}
+.case-item:hover{
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);
+}

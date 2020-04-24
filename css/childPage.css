@@ -1,0 +1,24 @@
+.child-top-banner{
+    width: 100%;
+    min-height: 300px;
+    background: url(../images/bgImages/bg-child.jpg) no-repeat center;
+    background-size: cover;
+}
+.child-middle-box{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.child-middle-box h1{
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 700;
+    color: #18d26e;
+}
+.child-middle-box h4{
+    margin-top: 15px;
+    text-align: center;
+    color: #bebdbd;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
